@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.homemade.barista.fragments.FragmentRandcof">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/randcof_item"-->
+        <!--android:background="@drawable/coffee2" />-->
+
+    <Button
+        android:layout_width="163dp"
+        android:layout_height="73dp"
+        android:text="Поехали"
+        android:id="@+id/button_randcof"
+        android:layout_gravity="center_horizontal|top"
+        android:background="#b40aa9"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp" />
+
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="395dp"-->
+        <!--android:id="@+id/imageButton"-->
+        <!--android:layout_gravity="left|center_vertical"-->
+        <!--android:background="#ffffff"-->
+        <!--android:backgroundTint="#00ffffff" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textColor="#f2e35e" />
+
+</FrameLayout>

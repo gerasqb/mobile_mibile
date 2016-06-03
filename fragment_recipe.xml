@@ -1,0 +1,238 @@
+ <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.homemade.barista.fragments.FragmentGallery">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text=""
+                    android:textColor="#ffcf0e" />
+            </TableRow>
+
+            <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:text=""
+                android:textColor="#ffcf0e" />
+        </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text=""
+                    android:textColor="#ffcf0e" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text=""
+                    android:textColor="#ffcf0e" />
+            </TableRow>
+
+            <!--<TableRow-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView5"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_column="0"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#ffcf0e" />-->
+            <!--</TableRow>-->
+
+            <!--<TableRow-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView6"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_column="0"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#ffcf0e" />-->
+            <!--</TableRow>-->
+            <!--<TableRow-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView7"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_column="0"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#ffcf0e" />-->
+            <!--</TableRow>-->
+            <!--<TableRow-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView8"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_column="0"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#ffcf0e" />-->
+            <!--</TableRow>-->
+            <!--<TableRow-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView9"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_column="0"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#ffcf0e" />-->
+            <!--</TableRow>-->
+
+            <!--<TableRow-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView10"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_column="0"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#ffcf0e" />-->
+            <!--</TableRow>-->
+            <!--<TableRow-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView11"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_column="0"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#ffcf0e" />-->
+            <!--</TableRow>-->
+            <!--<TableRow-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView12"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_column="0"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#ffcf0e" />-->
+            <!--</TableRow>-->
+            <!--<TableRow-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView13"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_column="0"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#ffcf0e" />-->
+            <!--</TableRow>-->
+            <!--<TableRow-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView14"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_column="0"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#ffcf0e" />-->
+            <!--</TableRow>-->
+            <!--<TableRow-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView15"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_column="0"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#ffcf0e" />-->
+            <!--</TableRow>-->
+            <!--<TableRow-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView16"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_column="0"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#ffcf0e" />-->
+            <!--</TableRow>-->
+            <!--<TableRow-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView17"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_column="0"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#ffcf0e" />-->
+            <!--</TableRow>-->
+            <!--<TableRow-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView18"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_column="0"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#ffcf0e" />-->
+            <!--</TableRow>-->
+
+        </TableLayout>
+
+    </FrameLayout>

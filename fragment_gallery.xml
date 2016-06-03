@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/scrollView1"
+android:layout_width="match_parent"
+android:layout_height="match_parent" >
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.homemade.barista.fragments.FragmentGallery">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView2"
+                android:layout_gravity="left|top"
+                android:src="@drawable/coffee18"
+                android:layout_column="0" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView3"
+                android:layout_gravity="center_horizontal|top"
+                android:src="@drawable/coffee18"
+                android:layout_column="1" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="165dp"
+                android:id="@+id/imageView4"
+                android:layout_gravity="right|top"
+                android:src="@drawable/coffee18" />
+
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="165dp"
+                android:id="@+id/imageView6"
+                android:layout_gravity="center"
+                android:src="@drawable/coffee18" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="165dp"
+                android:id="@+id/imageView7"
+                android:layout_gravity="right|center_vertical"
+                android:src="@drawable/coffee18" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="165dp"
+                android:id="@+id/imageView9"
+                android:layout_gravity="center_horizontal|bottom"
+                android:src="@drawable/coffee18" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="165dp"
+                android:id="@+id/imageView10"
+                android:layout_gravity="right|bottom"
+                android:src="@drawable/coffee18" />
+
+            <ImageView
+                android:layout_width="129dp"
+                android:layout_height="165dp"
+                android:id="@+id/imageView5"
+                android:layout_gravity="left|center_vertical"
+                android:src="@drawable/coffee18" />
+
+        </TableRow>
+
+
+
+
+
+    </TableLayout>
+</FrameLayout>
+</ScrollView>
