@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_menu_home"
+        android:title="@string/home_item" />
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="@string/gallery_item" />
+    <item
+        android:id="@+id/nav_randcof"
+        android:icon="@drawable/ic_menu_randcof"
+        android:title="@string/randcof_item" />
+    <item
+        android:id="@+id/nav_recipe"
+        android:icon="@drawable/ic_menu_recipe"
+        android:title="@string/recipe_item" />
+</group>
+
+</menu>
